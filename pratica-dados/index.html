@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    border-spacing: 0;
+    text-align: left;
+  }
+
+  table td,
+  table th {
+    padding: .5rem 1rem;
+  }
+
+  table tr:nth-child(even) {
+    background-color: ghostwhite;
+  }
+
+  h1,
+  h2,
+  p {
+    margin-left: 1rem;
+  }
+
+  h2 {
+    border-top: 6px solid ghostwhite;
+    padding-top: 1rem;
+  }
+</style>
+
+<body>
+  <h1>Estatísticas</h1>
+  <div class="total">
+    <p>Total: R$ 10.000,60</p>
+  </div>
+  <div class="payment">
+    
+  </div>
+  <div class="stats">
+  </div>
+  <p class="day">Dia com mais vendas: <span></span></p>
+  <h2>Dados</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Compra</th>
+        <th>Pagamento</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody class="user-stats">
+    </tbody>
+  </table>
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
